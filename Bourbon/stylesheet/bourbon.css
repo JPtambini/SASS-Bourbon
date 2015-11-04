@@ -1,0 +1,16 @@
+body {
+  background-color: blue;
+  background-image: -webkit-linear-gradient(-315deg, blue 0%, white 50%, white 51%, blue 100%);
+  background-image: linear-gradient(45deg,blue 0%, white 50%, white 51%, blue 100%); }
+  body h1 {
+    text-align: center;
+    width: 50%; }
+  body div {
+    height: 100%; }
+    body div p {
+      border: 15px;
+      -webkit-border-image: url(http://rs532.pbsrc.com/albums/ee322/Marathongman/Scrapbook%20Frames%20and%20Borders/festive-colors-border-a-transparent-scrapbook-frame-chain-effect-on-transparent-background-800-x-600.png~c200) 27 repeat;
+      border-image: url(http://rs532.pbsrc.com/albums/ee322/Marathongman/Scrapbook%20Frames%20and%20Borders/festive-colors-border-a-transparent-scrapbook-frame-chain-effect-on-transparent-background-800-x-600.png~c200) 27 repeat;
+      border-style: solid; }
+
+/*# sourceMappingURL=bourbon.css.map */

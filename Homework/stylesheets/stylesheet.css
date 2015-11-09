@@ -1,0 +1,93 @@
+body {
+  background-color: steelblue; }
+  body nav ul {
+    text-align: center; }
+    body nav ul li {
+      display: inline-block;
+      margin-left: 30px;
+      border: solid black 1px;
+      border-radius: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 25px; }
+      body nav ul li .linksto {
+        text-decoration: none;
+        opacity: 0.2; }
+      body nav ul li .linksto:hover {
+        opacity: 1; }
+    body nav ul li:hover {
+      transform: scale(1.5);
+      margin-left: 50px;
+      margin-right: 20px; }
+  body h1 {
+    text-align: center; }
+  body #towntag {
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.5); }
+    body #towntag p {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto; }
+  body #mayorbox {
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.5); }
+    body #mayorbox h3 {
+      text-align: center;
+      padding-top: 10px; }
+    body #mayorbox img {
+      width: 200px;
+      padding-left: 10%;
+      padding-bottom: 5%; }
+    body #mayorbox p {
+      width: 60%;
+      float: right;
+      padding-right: 20px; }
+  body #Pettag {
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.5); }
+    body #Pettag h3 {
+      text-align: center;
+      padding-top: 10px; }
+    body #Pettag img {
+      width: 200px;
+      padding-left: 10%;
+      padding-bottom: 5%; }
+    body #Pettag p {
+      width: 60%;
+      float: right;
+      padding-right: 20px; }
+  body #kidtag {
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.5); }
+    body #kidtag h3 {
+      text-align: center;
+      padding-top: 10px; }
+    body #kidtag img {
+      width: 200px;
+      padding-left: 10%;
+      padding-bottom: 5%; }
+    body #kidtag p {
+      width: 60%;
+      float: right;
+      padding-right: 20px; }
+  body #justcuz {
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.5); }
+    body #justcuz h3 {
+      text-align: center;
+      padding-top: 10px; }
+    body #justcuz img {
+      width: 200px;
+      padding-left: 10%;
+      padding-bottom: 5%; }
+    body #justcuz p {
+      width: 60%;
+      float: right;
+      padding-right: 20px; }
+
+/*# sourceMappingURL=stylesheet.css.map */

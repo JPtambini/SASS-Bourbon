@@ -1,0 +1,106 @@
+$color: steelblue;
+$edionwe:green;
+@mixin bcolor($color) {
+    background-color: $color;
+    }
+@mixin boxes{
+	width:80%;
+	margin-left:10%;
+	background-color: rgba(255,255,255,.5);
+	h3{
+		text-align: center;
+		padding-top:10px;
+	}
+	img{
+		width:200px;
+		padding-left:10%;
+		padding-bottom: 5%;
+	}
+	p{
+		width:60%;
+		float:right;
+		padding-right:20px;
+	}
+
+}
+// @mixin bcolor2{
+// 	color:orange;
+// 	border:solid black 2px;
+// }
+// @mixin tolu($edionwe){
+// 	font-family:sans-serif;
+// 	color:$edionwe;
+// }
+// @mixin blah{
+// 	background-color: green;
+// 	color: orange;
+// }
+
+body{
+	@include bcolor($color);
+	nav{
+		ul{
+			text-align: center;
+			li{
+				display: inline-block;
+				margin-left:30px;
+				border: solid black 1px;
+				border-radius: 5px;	
+				padding-left: 5px;
+				padding-right: 5px;
+				font-size: 25px;
+				.linksto{
+					text-decoration: none;
+					opacity:0.2;
+					
+				}
+				.linksto:hover{
+						opacity:1;
+
+				}
+			}
+			li:hover{
+				transform:scale(1.5);
+				margin-left:50px;
+				margin-right:20px;
+
+			}
+		}
+	}
+	h1{
+		text-align: center;
+	}
+	#towntag{
+		width:80%;
+		margin-left:10%;
+		background-color: rgba(255,255,255,.5);
+		p{
+			width:80%;
+			margin-left: auto;
+			margin-right:auto;
+		}
+
+	}
+	#mayorbox{
+		@include boxes;
+	}
+	#Pettag{
+		@include boxes;
+	}
+	#kidtag{
+		@include boxes;
+	}
+	#justcuz{
+		@include boxes;
+	}
+	// @include bcolor2;
+	// div{
+	// 	h1{
+	// 		color: green;
+	// 	}
+	// }
+	// h3{
+	// 	@include tolu($edionwe)
+
+	// }
+}

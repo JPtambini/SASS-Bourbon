@@ -4,20 +4,20 @@ body{
 	
 	h1{
 		text-align: center;	
-		width:50%
+		width:25%
 			
 	}
 	div{
-		height:100%;
+		height:50%;
 		// @include linear-gradient(red, blue);
 		// @include linear-gradient(to top, yellow, black);
 		// @include linear-gradient(to top, red, blue, $fallback: red);
-		@include linear-gradient(45deg, blue 0%, white 50%, white 51%, blue 100%); 
-		p{
+		// @include linear-gradient(45deg, blue 0%, white 50%, white 51%, blue 100%); 
+		// p{
 			
 			border:15px;
 			@include border-image(url(http://rs532.pbsrc.com/albums/ee322/Marathongman/Scrapbook%20Frames%20and%20Borders/festive-colors-border-a-transparent-scrapbook-frame-chain-effect-on-transparent-background-800-x-600.png~c200) 27 repeat);
 
 		}
-	}
+	
 }

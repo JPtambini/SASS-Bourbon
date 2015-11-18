@@ -21,23 +21,20 @@ $edionwe:green;
 		float:right;
 		padding-right:20px;
 	}
+	#address{
+			width:25%;	
+			text-align: right;
+			padding-bottom:25px;
+			
+	}
 
 }
-// @mixin bcolor2{
-// 	color:orange;
-// 	border:solid black 2px;
-// }
-// @mixin tolu($edionwe){
-// 	font-family:sans-serif;
-// 	color:$edionwe;
-// }
-// @mixin blah{
-// 	background-color: green;
-// 	color: orange;
-// }
 
 body{
 	@include bcolor($color);
+	h1{
+		font-family: serif;
+	}
 	nav{
 		ul{
 			text-align: center;
@@ -51,7 +48,7 @@ body{
 				font-size: 25px;
 				.linksto{
 					text-decoration: none;
-					opacity:0.2;
+					opacity:0.6;
 					
 				}
 				.linksto:hover{
@@ -71,8 +68,8 @@ body{
 		text-align: center;
 	}
 	#towntag{
-		width:80%;
-		margin-left:10%;
+		width:960px/1200px *100%;
+		margin-left:120px/1200px *100%;
 		background-color: rgba(255,255,255,.5);
 		p{
 			width:80%;
@@ -85,13 +82,14 @@ body{
 		@include boxes;
 	}
 	#Pettag{
-		@include boxes;
+		@extend #mayorbox;
 	}
+
 	#kidtag{
-		@include boxes;
+		@extend #Pettag;
 	}
 	#justcuz{
-		@include boxes;
+		@extend #kidtag
 	}
 	// @include bcolor2;
 	// div{
@@ -104,3 +102,6 @@ body{
 
 	// }
 }
+
+
+

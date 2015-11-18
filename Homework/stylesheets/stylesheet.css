@@ -1,5 +1,7 @@
 body {
   background-color: steelblue; }
+  body h1 {
+    font-family: serif; }
   body nav ul {
     text-align: center; }
     body nav ul li {
@@ -12,7 +14,7 @@ body {
       font-size: 25px; }
       body nav ul li .linksto {
         text-decoration: none;
-        opacity: 0.2; }
+        opacity: 0.6; }
       body nav ul li .linksto:hover {
         opacity: 1; }
     body nav ul li:hover {
@@ -29,65 +31,24 @@ body {
       width: 80%;
       margin-left: auto;
       margin-right: auto; }
-  body #mayorbox {
+  body #mayorbox, body #Pettag, body #kidtag, body #justcuz {
     width: 80%;
     margin-left: 10%;
     background-color: rgba(255, 255, 255, 0.5); }
-    body #mayorbox h3 {
+    body #mayorbox h3, body #Pettag h3, body #kidtag h3, body #justcuz h3 {
       text-align: center;
       padding-top: 10px; }
-    body #mayorbox img {
+    body #mayorbox img, body #Pettag img, body #kidtag img, body #justcuz img {
       width: 200px;
       padding-left: 10%;
       padding-bottom: 5%; }
-    body #mayorbox p {
+    body #mayorbox p, body #Pettag p, body #kidtag p, body #justcuz p {
       width: 60%;
       float: right;
       padding-right: 20px; }
-  body #Pettag {
-    width: 80%;
-    margin-left: 10%;
-    background-color: rgba(255, 255, 255, 0.5); }
-    body #Pettag h3 {
-      text-align: center;
-      padding-top: 10px; }
-    body #Pettag img {
-      width: 200px;
-      padding-left: 10%;
-      padding-bottom: 5%; }
-    body #Pettag p {
-      width: 60%;
-      float: right;
-      padding-right: 20px; }
-  body #kidtag {
-    width: 80%;
-    margin-left: 10%;
-    background-color: rgba(255, 255, 255, 0.5); }
-    body #kidtag h3 {
-      text-align: center;
-      padding-top: 10px; }
-    body #kidtag img {
-      width: 200px;
-      padding-left: 10%;
-      padding-bottom: 5%; }
-    body #kidtag p {
-      width: 60%;
-      float: right;
-      padding-right: 20px; }
-  body #justcuz {
-    width: 80%;
-    margin-left: 10%;
-    background-color: rgba(255, 255, 255, 0.5); }
-    body #justcuz h3 {
-      text-align: center;
-      padding-top: 10px; }
-    body #justcuz img {
-      width: 200px;
-      padding-left: 10%;
-      padding-bottom: 5%; }
-    body #justcuz p {
-      width: 60%;
-      float: right;
-      padding-right: 20px; }
+    body #mayorbox #address, body #Pettag #address, body #kidtag #address, body #justcuz #address {
+      width: 25%;
+      text-align: right;
+      padding-bottom: 25px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
